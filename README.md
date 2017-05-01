@@ -29,13 +29,13 @@ Sending data to a COM port
 
 I use an Arduino board. Here is how I do it
 
-[[https://github.com/Sanahm/MPU9250-Data-Visualization/blob/master/wiring.png]]
+[[https://github.com/Sanahm/MPU9250-Data-Visualization/blob/master/wiring.png|alt=octocat]]
 
 Results
 -------
 
-[[https://github.com/Sanahm/MPU9250-Data-Visualization/blob/master/visu.png]]
+[[https://github.com/Sanahm/MPU9250-Data-Visualization/blob/master/visu.png|alt=octocat]]
 
 The script mpuPlotSavedData.py allows you to plot the saved data using matplotlib
 
-[[https://github.com/Sanahm/MPU9250-Data-Visualization/blob/master/plotSaved.png]]
+[[https://github.com/Sanahm/MPU9250-Data-Visualization/blob/master/plotSaved.png|alt=octocat]]
