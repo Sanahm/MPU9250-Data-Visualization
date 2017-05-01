@@ -56,7 +56,7 @@ def Save():
     data[3:6,:] = data2[:,edge[0]:edge[1]]
     data[6:9,:] = data3[:,edge[0]:edge[1]]
     data[9] = tps[edge[0]:edge[1]]-tps[0]
-    np.savetxt("data"+str(k)+".csv",data,delimiter = ',')
+    np.savetxt("./SavedData/data"+str(k)+".csv",data,delimiter = ',')
     k +=1
 #win.resize(1366,768)
 

@@ -38,6 +38,6 @@ def PlotData(tps,acc,gyr,mag):
 
 
 #exemple of use
-tps_m,acc_m,gyr_m,mag_m = LoadData("data1.csv",delimiter=',')
+tps_m,acc_m,gyr_m,mag_m = LoadData("./SavedData/data1.csv",delimiter=',')
 PlotData(tps_m,acc_m,gyr_m,mag_m)
 
