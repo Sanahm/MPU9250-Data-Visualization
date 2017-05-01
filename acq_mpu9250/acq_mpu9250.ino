@@ -137,7 +137,7 @@ void loop()
   // Must be called before updating quaternions!
   AGM.updateTime();
 
-  digitalWrite(myLed, !digitalRead(myLed));  // toggle led
+  //digitalWrite(myLed, !digitalRead(myLed));  // toggle led
   AGM.delt_t = 600; //millis() - AGM.count;
   if (AGM.delt_t > 500)
   {
