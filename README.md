@@ -6,7 +6,7 @@ The MPU-9250 is a sensor from Invensense Inc that combine in one package both ac
 Repository Contents
 -------------------
 
-* **/Libraries** &mdash; An Arduino library (from sparkfun)
+* **/Libraries** &mdash; An Arduino library (from [sparkfun] (./Libraries/Arduino/README.md) )
 * **/acq_mpu9250** &mdash; The Arduino code to send data to a COM port
 * **mpuScrollingPlot.py** &mdash; A Python script for "scrolling plotting"
 * **mpuPlotSavedData.py** &mdash; to visualize saved data
@@ -29,13 +29,13 @@ Sending data to a COM port
 
 I use an Arduino board. Here is how I do it
 
-[[https://github.com/Sanahm/MPU9250-Data-Visualization/blob/master/wiring.png|alt=wiring]]
+[[https://github.com/Sanahm/MPU9250-Data-Visualization/blob/master/images/wiring.png|alt=wiring]]
 
 Results
 -------
 
-[[https://github.com/Sanahm/MPU9250-Data-Visualization/blob/master/visu.png|alt=visu]]
+[[https://github.com/Sanahm/MPU9250-Data-Visualization/blob/master/images/visu.png|alt=visu]]
 
 The script mpuPlotSavedData.py allows you to plot the saved data using matplotlib
 
-[[https://github.com/Sanahm/MPU9250-Data-Visualization/blob/master/plotSaved.png|alt=plotSaved]]
+[[https://github.com/Sanahm/MPU9250-Data-Visualization/blob/master/images/plotSaved.png|alt=plotSaved]]
