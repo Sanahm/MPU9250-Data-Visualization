@@ -8,8 +8,8 @@ Repository Contents
 
 * **/Libraries** &mdash; An Arduino library (from sparkfun)
 * **/acq_mpu9250** &mdash; The Arduino code to send data to a COM port
-* **mpuScrollingPlot.py**; A Python script for "scrolling plotting"
-* **mpuPlotSavedData.py**; to visualize saved data
+* **mpuScrollingPlot.py** &mdash; A Python script for "scrolling plotting"
+* **mpuPlotSavedData.py** &mdash; to visualize saved data
 
 Required Python Package
 -----------------------
@@ -29,13 +29,13 @@ Sending data to a COM port
 
 I use an Arduino board. Here is how I do it
 
-![wiring] (https://github.com/Sanahm/MPU9250-Data-Visualization/wiring.png)
+![wiring] (https://github.com/Sanahm/MPU9250-Data-Visualization/blob/master/wiring.png)
 
 Results
 -------
 
-![Data's visualization interface] (https://github.com/Sanahm/MPU9250-Data-Visualization/visu.png)
+![Data's visualization interface] (https://github.com/Sanahm/MPU9250-Data-Visualization/blob/master/visu.png)
 
 The script mpuPlotSavedData.py allows you to plot the saved data using matplotlib
 
-![Visualize saved's data] (https://github.com/Sanahm/MPU9250-Data-Visualization/plotSaved.png)
+![Visualize saved data] (https://github.com/Sanahm/MPU9250-Data-Visualization/blob/master/plotSaved.png)
